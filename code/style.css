@@ -107,16 +107,19 @@ p{
 
 .btn-title{
   position: absolute;
-  top: 3px;
+  top: 1em;
   left: 3px;
   text-align: left;
   font-size: 25px;
   font-weight: 900;
 }
+.btn-title h1{
+  font-family: arial;
+}
 
 .btn{
   position: absolute;
-  top: 10em;
+  top: 11em;
   left: 3px;
   text-align: left;
 }

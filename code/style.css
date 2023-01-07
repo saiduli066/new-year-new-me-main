@@ -73,24 +73,62 @@ p{
 
 .icon-skill{
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   text-align: center;
-
+  padding: 1em 2em 2em 2em;
 }
 
-.ic--ill{
-  padding: 2em ;
+.ic--ill h3{
+  font-weight:700 ;
+  font-size: 25px;
+  font-family: arial;
+}
+.ic--ill p{
+  font-size: 18px;
 }
 
 /* image gradient */
-
-.img-grad{
-  text-align: center; 
-}
-.img-grad img{
-  width: 70%;
+.image-gradient{
   
+  color: white;
+  display: flex;
+  justify-content:center;
 }
+.img-grad{
+  background: linear-gradient(url('../images/gradient2.png'));
+  position: relative;
+  display: flex;
+  justify-content:center;
+
+}
+.img-grad .gradient{
+  position: absolute;
+}
+
+.btn-title{
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  text-align: left;
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.btn{
+  position: absolute;
+  top: 10em;
+  left: 3px;
+  text-align: left;
+}
+.btn button{
+  padding: 20px 30px;
+  border-radius: 7px;
+  border: 0;
+  color:#F15B22;
+  font-size: 18px;
+  font-weight: 700;
+}
+
 
 .footer{
   margin-top: 6em;
